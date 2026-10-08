@@ -1,0 +1,23 @@
+# Build outputs
+bcurl
+*.o
+*.a
+*.so
+*.d
+
+# Test and coverage outputs
+*.tmp
+*.gcda
+*.gcno
+*.gcov
+
+# IDE and tooling files
+.vscode/
+.idea/
+compile_commands.json
+
+# Crash dumps and OS metadata
+core
+core.*
+.DS_Store
+Thumbs.db
